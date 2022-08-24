@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+main {
+    padding: 2px;
+  }
+  
+  header,
+  section {
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header {
+    background: #3e3c3c;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #humberger {
+    display: none;
+  }
+  
+  #hum {
+    font-family: 'Roboto Serif', serif;
+    color: #fff;
+    font-size: 5vh;
+  }
+  
+  #navitems {
+    display: none;
+  }

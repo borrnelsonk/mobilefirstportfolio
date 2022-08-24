@@ -29,3 +29,5 @@ main {
   #navitems {
     display: none;
   }
+  /* Show the Navigation links when the Hamburger menu is clicked */
+#navig input:checked ~ #navitems { display: block; }

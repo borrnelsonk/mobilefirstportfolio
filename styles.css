@@ -1,33 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+
 main {
-    padding: 2px;
-  }
-  
-  header,
-  section {
-    margin: 0;
-    padding: 20px;
-    color: #fff;
-  }
-  
-  header {
-    background: #3e3c3c;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #humberger {
-    display: none;
-  }
-  
-  #hum {
-    font-family: 'Roboto Serif', serif;
-    color: #fff;
-    font-size: 5vh;
-  }
-  
-  #navitems {
-    display: none;
-  }
-  /* Show the Navigation links when the Hamburger menu is clicked */
+  padding: 2px;
+}
+
+header,
+section {
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+header {
+  background: #3e3c3c;
+  display: flex;
+  justify-content: space-between;
+}
+
+#humberger {
+  display: none;
+}
+
+#hum {
+  font-family: 'Roboto Serif', serif;
+  color: #fff;
+  font-size: 5vh;
+}
+
+#navitems {
+  display: none;
+}
+
+/* Show the Navigation links when the Hamburger menu is clicked */
 #navig input:checked ~ #navitems { display: block; }
+
+#navitems a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding-top: 5px;
+  color: #fff;
+  font-weight: 200;
+}
+
+#navitems a:hover {
+  background-color: aqua;
+  text-size-adjust: 10%;
+}
+
+#toolbar {
+  background-color: #1c1a19;
+  padding-left: 5vh;
+}
+
+h1 {
+  font-family: 'Roboto Serif', serif;
+  color: #fff;
+  font-size: 3vh;
+}
+
+#heytext {
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+}
+
+#whoami {
+  font-family: 'Roboto Serif', serif;
+  color: #fff5e1;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  background-color: #1c1a19;
+  padding-top: 5vh;
+}
+
+#socialicons,
+img {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: space-between;
+  width: 20px;
+  height: 15px;
+}

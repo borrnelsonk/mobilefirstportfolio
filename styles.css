@@ -17,6 +17,14 @@ header {
   justify-content: space-between;
 }
 
+#header a {
+  font-family: 'Roboto', serif;
+  text-decoration: none;
+  color: #fff;
+  font-style: bold;
+  font-size: medium;
+}
+
 #humberger {
   display: none;
 }

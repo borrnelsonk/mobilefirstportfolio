@@ -74,14 +74,6 @@
     color: #ff6b00;
   }
 
-  #p1 {
-    font-size: 1.8rem;
-  }
-
-  #p2 {
-    font-size: 1.8rem;
-  }
-
   #whoami {
     font-family: 'Roboto Serif', serif;
     color: #fff5e1;
@@ -95,18 +87,22 @@
   #p4 {
     font-size: 1rem;
   }
+}
 
-  #socials {
-    display: flex;
-    flex-direction: row;
-    background-color: #1c1a19;
-    padding-top: 5vh;
-  }
+ul {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  margin-left: -6vh;
+}
 
-  #socialicons img {
-    height: 1.4rem;
-    width: 1.5rem;
-  }
+#socialicons {
+  margin-left: 0;
+}
+
+#socialicons img {
+  height: 1.4rem;
+  width: 1.5rem;
 }
 
 /* STYLING FOR BIG SCREENS */

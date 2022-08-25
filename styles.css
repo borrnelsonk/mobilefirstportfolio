@@ -26,15 +26,20 @@
   header a {
     font-family: 'Roboto Serif', serif;
     text-decoration: none;
-    font-style: bold;
+    font-weight: bold;
+    font-size: large;
     color: #fff;
-    font-size: medium;
+    padding-left: 2%;
+  }
+
+  #navig {
+    height: fit-content;
   }
 
   #hum {
     font-family: 'Roboto Serif', serif;
     color: #fff;
-    font-size: 5vh;
+    font-size: 3vh;
     background-color: #3e3c3c;
     border: none;
   }
@@ -65,8 +70,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom right;
-    background-position-x: 65vh;
-    background-position-y: 40vh;
+    background-position-x: 98%;
+    background-position-y: 70%;
   }
 
   #heytext {
@@ -81,7 +86,7 @@
 
   #p3 {
     font-size: 1.4rem;
-    font-style: bold;
+    font-weight: bold;
   }
 
   #p4 {
@@ -89,11 +94,15 @@
   }
 }
 
-ul {
+#socials {
   display: flex;
   align-items: flex-start;
   list-style-type: none;
   margin-left: -6vh;
+}
+
+#socials li {
+  padding-right: 3%;
 }
 
 #socialicons {

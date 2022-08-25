@@ -1,98 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
 
-main {
-  padding: 2px;
-}
+@media screen and (max-width: 640px) {
+  main {
+    padding: 0;
+    margin: 0;
+  }
 
-header,
-section {
-  margin: 0;
-  padding: 20px;
-  color: #fff;
-}
+  header,
+  section {
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+  }
 
-header {
-  background: #3e3c3c;
-  display: flex;
-  justify-content: space-between;
-}
+  header {
+    background: #3e3c3c;
+    display: flex;
+    justify-content: space-between;
+  }
 
-#header a {
-  font-family: 'Roboto', serif;
-  text-decoration: none;
-  color: #fff;
-  font-style: bold;
-  font-size: medium;
-}
+  #humberger {
+    display: none;
+  }
 
-#humberger {
-  display: none;
-}
+  header a {
+    font-family: 'Roboto Serif', serif;
+    text-decoration: none;
+    font-style: bold;
+    color: #fff;
+    font-size: medium;
+  }
 
-#hum {
-  font-family: 'Roboto Serif', serif;
-  color: #fff;
-  font-size: 5vh;
-}
+  #hum {
+    font-family: 'Roboto Serif', serif;
+    color: #fff;
+    font-size: 5vh;
+    background-color: #3e3c3c;
+    border: none;
+  }
 
-#navitems {
-  display: none;
-}
+  #navitems {
+    display: none;
+  }
 
-/* Show the Navigation links when the Hamburger menu is clicked */
-#navig input:checked ~ #navitems { display: block; }
+  #navitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 200;
+  }
 
-#navitems a {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  text-decoration: none;
-  padding-top: 5px;
-  color: #fff;
-  font-weight: 200;
-}
+  #navitems a:hover {
+    background-color: aqua;
+    text-size-adjust: 10%;
+  }
 
-#navitems a:hover {
-  background-color: aqua;
-  text-size-adjust: 10%;
-}
+  #toolbar {
+    background-color: #1c1a19;
+    padding-left: 5vh;
+    background-image: url("assets/mobilegroup.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-position-x: 65vh;
+    background-position-y: 40vh;
+  }
 
-#toolbar {
-  background-color: #1c1a19;
-  padding-left: 5vh;
-}
+  #heytext {
+    font-family: 'Crete Round', serif;
+    color: #ff6b00;
+  }
 
-h1 {
-  font-family: 'Roboto Serif', serif;
-  color: #fff;
-  font-size: 3vh;
-}
+  #p1 {
+    font-size: 1.8rem;
+  }
 
-#heytext {
-  font-family: 'Crete Round', serif;
-  color: #ff6b00;
-}
+  #whoami {
+    font-family: 'Roboto Serif', serif;
+    color: #fff5e1;
+  }
 
-#whoami {
-  font-family: 'Roboto Serif', serif;
-  color: #fff5e1;
-}
+  #p3 {
+    font-size: 1.4rem;
+    font-style: bold;
+  }
 
-#socials {
-  display: flex;
-  flex-direction: row;
-  background-color: #1c1a19;
-  padding-top: 5vh;
-}
+  #p4 {
+    font-size: 1rem;
+  }
 
-#socialicons,
-img {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-content: space-between;
-  width: 20px;
-  height: 15px;
+  #socials {
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1a19;
+    padding-top: 5vh;
+  }
+
+  #socialicons img {
+    height: 1.4rem;
+    width: 1.5rem;
+  }
 }
 
 /* STYLING FOR BIG SCREENS */

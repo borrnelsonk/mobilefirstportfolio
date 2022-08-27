@@ -215,78 +215,76 @@
   order: 4;
   flex-grow: 0;
 }
+
 .works {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 0px;
+  padding: 120px 0;
   gap: 80px;
   position: absolute;
   width: 375px;
   height: 3455px;
-  left: 0px;
+  left: 0;
   top: 682px;
-  
 }
- .title {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-width: 327px;
-height: 107px;
-border-bottom: #1c1a19;
-border-style: solid;
-border-bottom-width:0.5px;
 
-flex: none;
-order: 0;
-flex-grow: 0;
- }
- .worktext {
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
   width: 327px;
-height: 83px;
-
-font-family: 'Crete Round',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;
-
-display: flex;
-align-items: center;
-
-color: #1C1A19;
-
-flex: none;
-order: 0;
-flex-grow: 0;
- }
- .workframe {
-width: 327px;
-height: 237px;
-background:url(/assets/Placeholder.svg);
-
- }
-.project1 {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 12px;
-width: 327px;
-height: 307px;
+  height: 107px;
+  border-bottom: #1c1a19;
+  border-style: solid;
+  border-bottom-width: 0.5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
+
+.worktext {
+  width: 327px;
+  height: 83px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.workframe {
+  width: 327px;
+  height: 237px;
+  background: url(/assets/Placeholder.svg);
+}
+
+.project1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  width: 327px;
+  height: 307px;
+}
+
 .post {
   width: 327px;
-height: 36px;
-
-font-family: 'Crete Round',sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #091E42;
+  height: 36px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
 }

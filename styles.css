@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+.appbar {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
+}
+
+.toolbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 101px;
+  height: 44px;
+  left: 12px;
+  top: calc (50% - 44px / 2);
+}
+
+.logo a {
+  width: 77px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc (50% - 40px / 2);
+  border-radius: 8px;
+  background: #3c3a39;
+}
+
+.hmenu {
+  width: 24px;
+  height: 24px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 0;
+  top: 92px;
+  background: #1c1a19;
+  background-image: url(/assets/mobilegroup.svg);
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 99.5%;
+  background-position-y: 120%;
+}
+
+h1 {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+h2 {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0;
+}
+
+p {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  list-style-type: none;
+}
+
+.socials li {
+  background: #1c1a19;
+}
+
+.git {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.in {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.angel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.medium {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}

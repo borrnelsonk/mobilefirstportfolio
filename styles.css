@@ -119,7 +119,7 @@ h2 {
   margin: 0;
 }
 
-h3 {
+p {
   width: 327px;
   height: 123px;
   font-family: 'Poppins', sans-serif;
@@ -144,9 +144,10 @@ h3 {
   flex: none;
   order: 3;
   flex-grow: 0;
+  list-style-type: none;
 }
 
-.socials button {
+.socials li {
   background: #1c1a19;
 }
 

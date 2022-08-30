@@ -487,10 +487,7 @@
   list-style-type: none;
 }
 
-.fbutton a {
-  text-decoration: none;
-  color: #fff;
-}
+
 
 .butabout li a {
   text-decoration: none;
@@ -593,4 +590,8 @@ textarea {
 
 .fbutton:active {
   background-color: #3e8e41;
+}
+.btext {
+  text-decoration: none;
+  color: #fff;
 }

@@ -586,3 +586,11 @@ textarea {
   width: 300px;
   border: 1px solid #999;
 }
+
+.fbutton:hover {
+  background-color: #813e8e;
+}
+
+.fbutton:active {
+  background-color: #3e8e41;
+}

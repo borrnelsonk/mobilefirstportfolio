@@ -765,4 +765,55 @@
     color: #f4f5f7;
     margin: 0;
   }
+  .works {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    width:100%;
+    flex-wrap: nowrap;
+    
+    
+  }
+  .title {
+    display: flex;
+    padding-top: 10%;
+    flex-direction: row;
+    
+  
+  }
+  .worktext {
+    padding-left: 30px;
+    font-family: 'Crete Round',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .wline {
+  height: 1px;
+  background-color: #646369;
+  border: none;
+  padding-left: 25px;
+  width: 647px;
+  text-align: center;
+  margin: auto;  
+  }
+  .space {
+    width: 10px;
+  }
+  .recent {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+  }
+  .workframe {
+    width: 684px;
+    height: 448px;
+    background: url(/assets/placeholderdesk.svg);
+    background-repeat: no-repeat;
+    padding-right: 20px;
+  }
 }

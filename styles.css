@@ -32,6 +32,10 @@
     top: calc (50% - 44px / 2);
   }
 
+  .logo a:hover{
+    background-color: orange;
+  }
+
   .desktopnav {
     display: none;
   }
@@ -50,6 +54,7 @@
     color: #fff;
     text-decoration: none;
   }
+
 
   .hbutton {
     display: flex;
@@ -655,6 +660,10 @@
     color: #ffff;
     margin: 0;
     text-decoration: none;
+  }
+
+  .logo a:hover{
+    background-color: orange;
   }
 
   nav {
